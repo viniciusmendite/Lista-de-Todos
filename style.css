@@ -1,0 +1,77 @@
+body {
+    background-color: #602dd2;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#app {
+    background-color: #4d24a8;
+    margin: 20px;
+    color: #fafafa;
+}
+
+div input {
+    outline: 0;
+    margin-bottom: 10px;
+    border: 0;
+    border-bottom: 1px solid #e9dbf9;
+    background-color: #4d24a8;
+    font-size: 16px;
+    color: #e9dbf9;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+div input::placeholder {
+    color: #e9dbf9;
+}
+
+div button {
+    background-color: #e9dbf9;
+    border: 1px solid #e9dbf9;
+    color: #4d24a8;
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 20px;
+    outline: 0;
+    margin-left: 5px;
+}
+
+div button:hover {
+    box-shadow: 0px 0px 5px #e9dbf9;
+}
+
+.todo-area {
+    background-color: #4d24a8;
+    height: 400px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #e9dbf9;
+    overflow-y: hidden;
+}
+
+.areaInput {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+#app ul {
+    font-size: 18px;
+    color: #e9dbf9;
+    text-transform: capitalize;
+}
+
+#app ul a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #1f1f1f;
+    font-weight: bold;
+}
